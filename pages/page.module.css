@@ -1,0 +1,229 @@
+/* app/page.module.css */
+.container {
+  background: linear-gradient(45deg, #ff0000, #00ff00, #0000ff, #ffff00);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  min-height: 100vh;
+  font-family: 'Comic Sans MS', 'Arial Rounded MT Bold', cursive, sans-serif;
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.mainTable {
+  background: linear-gradient(135deg, #ff69b4, #ba55d3, #9370db);
+  border: 8px ridge #ff00ff;
+  box-shadow: 0 0 20px #00ffff, 0 0 40px #ff00ff;
+}
+
+.animatedHeader {
+  animation: bounce 2s infinite;
+  margin-bottom: 20px;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.glowingText {
+  color: #ffff00;
+  text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000;
+  font-size: 2.5em;
+  margin: 0;
+  animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from { text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000; }
+  to { text-shadow: 0 0 15px #ff0000, 0 0 25px #ff0000, 0 0 35px #ff0000, 0 0 45px #ff0000; }
+}
+
+.visitorCounter {
+  margin: 15px 0;
+  padding: 10px;
+  background: linear-gradient(45deg, #000000, #333333);
+  border: 3px solid #00ff00;
+  display: inline-block;
+}
+
+.contentTable {
+  background: linear-gradient(180deg, #00ffff, #ffffff);
+  border: 5px double #ff00ff;
+}
+
+.sidebar {
+  background: linear-gradient(90deg, #ff1493, #ff69b4);
+  border: 3px groove #ffff00;
+  border-radius: 15px;
+}
+
+.sidebarHeader {
+  color: #0000ff;
+  text-align: center;
+  text-shadow: 2px 2px 0px #ffff00;
+  font-size: 1.5em;
+  margin: 0 0 15px 0;
+}
+
+.sidebarContent {
+  text-align: center;
+}
+
+.profilePic {
+  border: 5px ridge #00ff00;
+  margin: 10px auto;
+  display: block;
+  box-shadow: 0 0 15px #ff00ff;
+}
+
+.sidebarText {
+  color: #ffffff;
+  font-size: 1.1em;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.gifs {
+  margin-top: 20px;
+}
+
+.gifs img {
+  margin: 0 5px;
+}
+
+.mainContent {
+  background: linear-gradient(90deg, #ffff00, #ffa500);
+  border: 4px outset #ff0000;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.contentHeader {
+  color: #ff00ff;
+  text-shadow: 2px 2px 0px #000000;
+  font-size: 1.8em;
+  margin: 0 0 15px 0;
+  text-align: center;
+}
+
+.contentText {
+  color: #000080;
+  font-size: 1.2em;
+  line-height: 1.6;
+  text-shadow: 1px 1px 1px #ffffff;
+}
+
+.rainbowText {
+  animation: rainbow 3s linear infinite;
+  font-weight: bold;
+}
+
+@keyframes rainbow {
+  0% { color: #ff0000; }
+  16% { color: #ff8000; }
+  33% { color: #ffff00; }
+  50% { color: #00ff00; }
+  66% { color: #0000ff; }
+  83% { color: #8000ff; }
+  100% { color: #ff00ff; }
+}
+
+.interestsList {
+  color: #800080;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.interestsList li {
+  margin: 10px 0;
+  text-shadow: 1px 1px 2px #ffff00;
+}
+
+.linksContainer {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.retroLink {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background: linear-gradient(45deg, #ff0000, #ffff00);
+  border: 3px outset #ffffff;
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px #000000;
+  transition: all 0.3s;
+}
+
+.retroLink:hover {
+  background: linear-gradient(45deg, #ffff00, #ff0000);
+  border: 3px inset #ffffff;
+  transform: translateY(2px);
+  box-shadow: 1px 1px 2px #000000;
+}
+
+.marqueeContainer {
+  background: linear-gradient(90deg, #000000, #333333);
+  border: 2px solid #00ff00;
+  margin-top: 20px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.marqueeText {
+  color: #00ff00;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-shadow: 0 0 5px #00ff00;
+}
+
+.footer {
+  margin-top: 20px;
+  padding: 15px;
+  background: linear-gradient(180deg, #000000, #333333);
+  border: 4px ridge #ff00ff;
+  border-radius: 10px;
+}
+
+.footerText {
+  color: #ffffff;
+  font-size: 1.1em;
+  text-align: center;
+  margin: 0;
+}
+
+.blinkingText {
+  animation: blink 1s infinite;
+  color: #ff0000;
+  font-weight: bold;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+.constructionGif {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Scrollbar styling for extra retro feel */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: linear-gradient(90deg, #000000, #333333);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #ff0000, #ffff00);
+  border: 2px solid #000000;
+}
