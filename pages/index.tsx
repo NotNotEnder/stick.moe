@@ -81,7 +81,7 @@ export default function Home() {
                               
                               <h3 className={styles.contentHeader}>★ CONNECT WITH ME ★</h3>
                               <div className={styles.linksContainer}>
-                                <a href="mailto:admin@stick.moe" className={styles.retroLink}>📧 Email Me</a>
+                                <a href="mailto:notnotender@icloud.com" className={styles.retroLink}>📧 Email Me</a>
                                 <a href="https://x.com/NotNotEnder" className={styles.retroLink}>🐦 My Twitter</a><br/>
                                 <a href="https://bsky.app/profile/stick.ko6bxl.com" className={styles.retroLink}>⭐ My Bluesky</a>
                                 <a onClick={copyDiscord} className={styles.retroLink}>
@@ -130,6 +130,9 @@ export default function Home() {
                         </p>
                         <div className={styles.constructionGif}>
                           <a href="https://github.com/NotNotEnder/stick.moe">Webiste Source</a>
+                        </div>
+                        <div style={{ marginTop: '10px' }}>
+                          <a href="/credit" style={{ color: '#ffffff', textDecoration: 'underline' }}>Art Credits</a>
                         </div>
                       </div>
                     </td>

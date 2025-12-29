@@ -1,9 +1,6 @@
 /* styles/Home.module.css */
 .container {
   min-height: 100vh;
-  background: linear-gradient(45deg, #ff0000, #00ff00, #0000ff, #ffff00);
-  background-size: 400% 400%;
-  animation: gradientBG 15s ease infinite;
   font-family: 'Comic Sans MS', 'Arial Rounded MT Bold', cursive, sans-serif;
   padding: 20px 0;
 }

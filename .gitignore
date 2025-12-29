@@ -42,3 +42,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# guestbook
+guestbook.db
+
+# git ignore
+.gitignore
+/.crush/
+AGENTS.md

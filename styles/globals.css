@@ -8,9 +8,19 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #000000;
+  /* Rainbow gradient moved here for mobile fix */
+  background: linear-gradient(45deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+  background-size: 400% 400%;
+  background-attachment: fixed;
+  animation: gradientBG 15s ease infinite;
   font-family: 'Comic Sans MS', 'Arial Rounded MT Bold', cursive, sans-serif;
   min-height: 100vh;
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
 html {
