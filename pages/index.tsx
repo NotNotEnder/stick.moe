@@ -83,7 +83,7 @@ export default function Home() {
                               <div className={styles.linksContainer}>
                                 <a href="mailto:admin@stick.moe" className={styles.retroLink}>📧 Email Me</a>
                                 <a href="https://x.com/NotNotEnder" className={styles.retroLink}>🐦 My Twitter</a><br/>
-                                <a href="https://bsky.app/profile/notnotender.stick.moe" className={styles.retroLink}>⭐ My Bluesky</a>
+                                <a href="https://bsky.app/profile/stick.ko6bxl.com" className={styles.retroLink}>⭐ My Bluesky</a>
                                 <a onClick={copyDiscord} className={styles.retroLink}>
                                   💬 My Discord {discordCopied ? '(Copied!)' : ''}
                                 </a>
@@ -93,7 +93,7 @@ export default function Home() {
                                 <a href="https://osu.ppy.sh/users/34467005" className={styles.retroLink}>🕹️ My Osu!</a>
                               </div>
                               
-                              {/* Blinkies Section - Now outside the sidebar */}
+                              {/* Blinkies Section */}
                               <div className={styles.blinkiesSection}>
                                 <h3 className={styles.blinkiesHeader}>★ FAVE BLINKIES ★</h3>
                                 <div className={styles.blinkiesGrid}>
@@ -111,7 +111,7 @@ export default function Home() {
                                 <Guestbook />
                               </div>
                               
-                		{/* Animated Marquee - CSS Version */}
+                		{/* Animated Marquee */}
                               <div className={styles.marqueeContainer}>
                                 <div className={styles.marqueeText}>
                                   ★ Thanks for visiting! Come back soon! ★ Check out my other pages! ★ Sign my guestbook! ★
@@ -125,7 +125,7 @@ export default function Home() {
                       {/* Footer */}
                       <div className={styles.footer}>
                         <p className={styles.footerText}>
-                          🄯 No Rights Reserved | Best viewed in Netscape Navigator 4.0!<br/> Made with silliness in Cali 💜 
+                          0 No Rights Reserved | Best viewed in Netscape Navigator 4.0!<br/> Made with silliness in Cali 💜 
                           <br/><span className={styles.blinkingText}> UNDER CONSTRUCTION</span>
                         </p>
                         <div className={styles.constructionGif}>
