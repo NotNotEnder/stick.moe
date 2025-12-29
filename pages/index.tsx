@@ -24,6 +24,7 @@ export default function Home() {
                   <tr>
                     <td align="center">
                       {/* Animated Header */}
+		      <h1>ATTENTION!!! THIS IS A TEMP DOMAIN!!</h1>
                       <div className={styles.animatedHeader}>
                         <h1>★ WELCOME TO THE SILLINESS ★</h1>
                       </div>
@@ -35,17 +36,17 @@ export default function Home() {
                               <div className={styles.sidebarContent}>
                                 <h2 className={styles.sidebarHeader}>★ABOUT ME★</h2>
                                 <img 
-                                  src="https://notnotender.stick.moe/NotNotEnder.jpeg" 
+                                  src="https://files.catbox.moe/p8gbmd.JPEG" 
                                   alt="PFP" 
                                   className={styles.profilePic}
                                 />
                                 <p className={styles.sidebarText}>
-                                  <b>Name:</b> Stick<br/>
-                                  <b>Aliases:</b> NotNotEnder, Not Ender<br/>
+                                  <b>Name:</b> Ceres<br/>
+                                  <b>Aliases:</b> Stick, Not Ender<br/>
                                   <b>Age:</b> 18 +1 +1 (canonically)<br/>
 				  <b>Gender:</b> Enby! <br/>
                                   <b>Location:</b> Lemonade!!<br/>
-                                  <b>Pronouns:</b> Any!<br/>
+                                  <b>Pronouns:</b> They/Them<br/>
                                   <b>Favorites:</b> Games, Music, You❣
                                 </p>
                                 
