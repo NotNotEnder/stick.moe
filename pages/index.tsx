@@ -24,7 +24,6 @@ export default function Home() {
                   <tr>
                     <td align="center">
                       {/* Animated Header */}
-		      <h1>ATTENTION!!! THIS IS A TEMP DOMAIN!!</h1>
                       <div className={styles.animatedHeader}>
                         <h1>★ WELCOME TO THE SILLINESS ★</h1>
                       </div>
@@ -83,7 +82,7 @@ export default function Home() {
                               <div className={styles.linksContainer}>
                                 <a href="mailto:notnotender@icloud.com" className={styles.retroLink}>📧 Email Me</a>
                                 <a href="https://x.com/NotNotEnder" className={styles.retroLink}>🐦 My Twitter</a><br/>
-                                <a href="https://bsky.app/profile/stick.ko6bxl.com" className={styles.retroLink}>⭐ My Bluesky</a>
+                                <a href="https://bsky.app/profile/stick.stick.moe" className={styles.retroLink}>⭐ My Bluesky</a>
                                 <a onClick={copyDiscord} className={styles.retroLink}>
                                   💬 My Discord {discordCopied ? '(Copied!)' : ''}
                                 </a>
