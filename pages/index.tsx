@@ -35,7 +35,7 @@ export default function Home() {
                               <div className={styles.sidebarContent}>
                                 <h2 className={styles.sidebarHeader}>★ABOUT ME★</h2>
                                 <img 
-                                  src="https://files.catbox.moe/p8gbmd.JPEG" 
+                                  src="/Pictures/NotNotEnder.JPEG" 
                                   alt="PFP" 
                                   className={styles.profilePic}
                                 />
@@ -131,7 +131,8 @@ export default function Home() {
                           <a href="https://github.com/NotNotEnder/stick.moe">Webiste Source</a>
                         </div>
                         <div style={{ marginTop: '10px' }}>
-                          <a href="/credit" style={{ color: '#ffffff', textDecoration: 'underline' }}>Art Credits</a>
+                          <a href="/credit" style={{ color: '#ffffff', textDecoration: 'underline', marginRight: '15px' }}>Art Credits</a>
+                          <a href="/projects" style={{ color: '#ffffff', textDecoration: 'underline' }}>Projects</a>
                         </div>
                       </div>
                     </td>
