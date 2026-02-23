@@ -24,7 +24,6 @@ export default function Home() {
                   <tr>
                     <td align="center">
                       {/* Animated Header */}
-		      <h1>ATTENTION!!! THIS IS A TEMP DOMAIN!!</h1>
                       <div className={styles.animatedHeader}>
                         <h1>★ WELCOME TO THE SILLINESS ★</h1>
                       </div>
@@ -36,7 +35,7 @@ export default function Home() {
                               <div className={styles.sidebarContent}>
                                 <h2 className={styles.sidebarHeader}>★ABOUT ME★</h2>
                                 <img 
-                                  src="https://files.catbox.moe/p8gbmd.JPEG" 
+                                  src="/Pictures/NotNotEnder.JPEG" 
                                   alt="PFP" 
                                   className={styles.profilePic}
                                 />
@@ -81,9 +80,9 @@ export default function Home() {
                               
                               <h3 className={styles.contentHeader}>★ CONNECT WITH ME ★</h3>
                               <div className={styles.linksContainer}>
-                                <a href="mailto:admin@stick.moe" className={styles.retroLink}>📧 Email Me</a>
+                                <a href="mailto:notnotender@icloud.com" className={styles.retroLink}>📧 Email Me</a>
                                 <a href="https://x.com/NotNotEnder" className={styles.retroLink}>🐦 My Twitter</a><br/>
-                                <a href="https://bsky.app/profile/stick.ko6bxl.com" className={styles.retroLink}>⭐ My Bluesky</a>
+                                <a href="https://bsky.app/profile/stick.stick.moe" className={styles.retroLink}>⭐ My Bluesky</a>
                                 <a onClick={copyDiscord} className={styles.retroLink}>
                                   💬 My Discord {discordCopied ? '(Copied!)' : ''}
                                 </a>
@@ -130,6 +129,10 @@ export default function Home() {
                         </p>
                         <div className={styles.constructionGif}>
                           <a href="https://github.com/NotNotEnder/stick.moe">Webiste Source</a>
+                        </div>
+                        <div style={{ marginTop: '10px' }}>
+                          <a href="/credit" style={{ color: '#ffffff', textDecoration: 'underline', marginRight: '15px' }}>Art Credits</a>
+                          <a href="/projects" style={{ color: '#ffffff', textDecoration: 'underline' }}>Projects</a>
                         </div>
                       </div>
                     </td>

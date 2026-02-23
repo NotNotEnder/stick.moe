@@ -14,11 +14,19 @@ export default function Guestbook() {
   const fetchEntries = async () => {
     try {
       const response = await fetch('/api/guestbook')
+      
+      // Handle non-OK responses
+      if (!response.ok) {
+        const text = await response.text()
+        console.error('Server error response:', text)
+        throw new Error(`Server error: ${response.status} ${response.statusText}`)
+      }
+      
       const data = await response.json()
       setEntries(data)
     } catch (error) {
       console.error('Failed to fetch entries:', error)
-      setError('Failed to load entries')
+      setError('Failed to load entries. The server might be restarting or configured incorrectly.')
     }
   }
 
