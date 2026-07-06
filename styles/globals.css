@@ -8,13 +8,11 @@
 body {
   margin: 0;
   padding: 0;
-  /* Rainbow gradient moved here for mobile fix */
-  background: linear-gradient(45deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
-  background-size: 400% 400%;
-  background-attachment: fixed;
-  animation: gradientBG 15s ease infinite;
-  font-family: 'Comic Sans MS', 'Arial Rounded MT Bold', cursive, sans-serif;
+  /* Win95 teal backdrop (shows behind the fixed desktop + on mobile) */
+  background: #008080;
+  font-family: 'MS Sans Serif', 'Tahoma', 'Geneva', sans-serif;
   min-height: 100vh;
+  color: #000;
 }
 
 @keyframes gradientBG {
@@ -32,13 +30,8 @@ html, body {
   height: 100%;
 }
 
-/* Cursor styling for extra authenticity */
-body {
-  cursor: url("https://wiki.batmanarkhamknight.com/images/8/8a/Cursor_Hand_Pointer.png"), auto;
-}
-
-a, button, input, textarea {
-  cursor: url("https://wiki.batmanarkhamknight.com/images/8/8a/Cursor_Hand_Pointer.png"), pointer;
+a, button {
+  cursor: pointer;
 }
 
 /* Fix for table layouts */
